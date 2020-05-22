@@ -1,0 +1,88 @@
+html,body{
+	height: 100%;
+	width : 100%;
+	
+}
+.navbar{
+	padding:.8ren;
+	
+}
+.navbar-nav li{
+	padding-right:20px;
+	
+}
+.nav-link{
+	font-size:1.1em !important;
+}
+.carousel-caption h1{
+	font-size:500%;  
+	text-shadow:1px 1px 15px #000;
+	padding-bottom:1 rem;
+}
+.carousel-inner img{
+	width:100%;
+	height:100%;
+}
+.welcome{
+	width:75%;
+	margin:0 auto;
+	
+	padding-top:5px;
+}
+.carousel-caption{
+	position:absolute;
+
+}
+.btn-primary:hover{
+	border: 1px solid #563d7c;
+}
+
+.jumbotron{
+	padding:50px;
+	border-radius:0;
+}
+.padding{
+	padding:15px;
+}
+.fa-java{
+color:red;
+}
+.fa-java,.fa-amazon,.fa-apple{
+	font-size:60px;
+	margin:16px;
+}
+.fun{
+	width:100%;
+	margin-bottom:32px;
+}
+.gif{
+	max-width:100%;
+}
+.social a{
+	font-size:80px;
+	padding:25px;
+}
+ .fa-facebook-f"{
+	 color:#4c0099;
+ } 
+ .fa-linkedin-in{
+	 color:#0072b1;
+ }
+ .fa-twitter{
+	 color:#00acee;
+ }
+.fa-reddit{
+	color:#ED001C;
+}
+.fa-quora{
+
+	color:#b92b27;
+}
+.fa-python{
+	color:#306998 ;
+}
+
+ .fa-facebook-f:hover,.fa-linkedin-in:hover,.fa-twitter:hover,.fa-reddit:hover,.fa-quora:hover{
+	color:#d5d5d5;
+	
+}
