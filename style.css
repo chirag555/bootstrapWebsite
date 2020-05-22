@@ -86,3 +86,8 @@ color:red;
 	color:#d5d5d5;
 	
 }
+
+@media only screen and (max-width: 768px) {
+ .text{
+text-size:10px;}
+}
