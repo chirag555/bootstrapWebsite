@@ -36,7 +36,9 @@ html,body{
 .btn-primary:hover{
 	border: 1px solid #563d7c;
 }
-
+.btn-secondary:hover{
+	border: 1px solid #563d7c;
+}
 .jumbotron{
 	padding:50px;
 	border-radius:0;
@@ -87,7 +89,16 @@ color:red;
 	
 }
 
-@media only screen and (max-width: 768px) {
- .text{
-text-size:10px;}
-}
+
+
+@media (max-width:576px) {
+	.text1 {
+		font-size:30px ;
+
+	}
+	.subtitle-text{
+		font-size: 20px;
+
+	}
+	}
+
