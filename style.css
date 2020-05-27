@@ -113,6 +113,11 @@ color:red;
 hr.light{
 	border-top:1px solid #d5d5d5;
 }
+.gallery-bord{
+	border:2px solid gainsboro;
+	border-radius:5px;
+	
+}
 @media (max-width:576px) {
 	.text1 {
 		font-size:20px ;
