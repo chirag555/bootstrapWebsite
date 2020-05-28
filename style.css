@@ -118,6 +118,45 @@ hr.light{
 	border-radius:5px;
 	margin-bottom:10px;
 }
+.card:hover{
+	transform: scale(1.1);
+	transition-duration:.3s;
+
+}
+.shadow{
+	box-shadow: 10px 10px 20px 0 rgba(0,56,63,.15);
+}
+.slideanim{visibility: hidden;}
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  .subtitle-text{
+	  font-size:40px;
+  }
 
 @media (max-width:576px) {
 	.text1 {
@@ -126,6 +165,9 @@ hr.light{
 	.text2 {
 		font-size:40px ;
 
+	}
+	.title{
+		font-size:40px;
 	}
 	.subtitle-text{
 		font-size: 20px;

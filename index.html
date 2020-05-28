@@ -21,15 +21,9 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 	</script>
-	<script>
-		$(function () {
-			$('[data-toggle="popover"]').popover()
-		})
-
-		$('.popover-dismiss').popover({
-			trigger: 'focus'
-		})
-	</script>
+	<script src="script.js" rel="script"></script>
+	
+	
 	<title>The Journey (2018-2020) </title>
 </head>
 
@@ -44,7 +38,7 @@
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse" id="navbarResponsive">
+		<div class="collapse navbar-collapse sahdow" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
 					<a class="nav-link " href="index.html">Home</a>
@@ -53,13 +47,13 @@
 					<a class="nav-link " href="docs/gallery.html">Gallery</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " href="#">Events</a>
+					<a class="nav-link " href="#events">Events</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " href="#">Extras</a>
+					<a class="nav-link " href="#extra">Extras</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " href="#">FeedBack </a>
+					<a class="nav-link " href="#footer">About us </a>
 				</li>
 		</div>
 
@@ -104,8 +98,8 @@
 
 
 	<!-- Jumbotron -->
-	<div class="container-fluid">
-		<div class="row jumbotron">
+	<div class="container-fluid shadow">
+		<div class="row jumbotron slideanim">
 			<div class="col-xs-12 col-sm-12 col-md-9 col-xl-10">
 				<p>A lot has happened this year it's just not possible to explain it with a few words</p>
 			</div>
@@ -128,10 +122,10 @@
 		</div>
 	</div>
 	<!-- THree column section -->
-	<div class="container-fluid padding">
+	<div class="container-fluid padding slideanim">
 		<div class="row text-center padding">
 			<div class="col-xs-12 col-sm-6 col-md-4">
-				<i class="fab fa-java fa-2x"></i>
+				<i class="fab fa-java fa-3x"></i>
 				<h3>Java</h3>
 				<p>The best thing.</p>
 			</div>
@@ -150,19 +144,19 @@
 	</div>
 	<!-- Two column section -->
 	<div class="container-fluid padding">
-		<div class="row padding">
+		<div class="row padding slideanim ">
 			<div class="col-lg-6 ">
 				<img src="resources/c5.jpg" class="bord img-fluid padding ">
 
 			</div>
-			<div class="col-lg-6">
-				<h2>Life is a roller coaster</h2>
+			<div class="col-lg-6 ">
+				<h2 class="display-4 title">Life is a roller coaster</h2>
 				<p>Life brings us as many joyful moments as it does downfalls, and although there are days we wish there
 					was a manual to follow, it simply wouldn’t be the same without the spontaneity.</p>
 				<p>Whether you’re embarking on a new adventure right out of school or you want to explore different
 					paths in your personal life, it’s never too late to change what the future looks like.</p>
 				<br>
-				<a href="#" class="btn btn-primary">Go to college website</a>
+				<a href="#" class="btn btn-primary shadow">Go to college website</a>
 			</div>
 
 
@@ -179,14 +173,14 @@
 		</div>
 	</figure>
 	<!-- Hidden Emoji Section -->
-	<button class="fun btn btn-info " data-toggle="collapse" data-target="#emoji"> Click for something interesting
+	<button id="extra" class="fun btn btn-info shadow" data-toggle="collapse" data-target="#emoji"> Click for something interesting
 	</button>
 	<div id="emoji" class="collapse">
 		<div class="container-fluid padding ">
-			<div class="row welcome text-center">
+			<div class="row welcome text-center slideanim">
 				<p class="display-4  subtitle-text ">Some hints....</p>
 			</div>
-			<div class="row">
+			<div class="row ">
 				<div class="col-6 col-sm-6 col-md-3 ">
 					<img class="gif" src="gifs\compass\animat-compass-color.gif">
 				</div>
@@ -214,9 +208,9 @@
 	<!-- Cards-->
 	<div class="container-fluid padding">
 
-		<div class="row padding">
+		<div class="row padding slideanim shadow">
 			<div class="col-sm-6 col-md-3">
-				<div class="card">
+				<div class="card shadow">
 					<img class="card-img-top" src="resources/t1.jpg">
 					<div class="card-body">
 						<h4 class="card-title">Prakash</h4>
@@ -231,7 +225,7 @@
 			</div>
 
 			<div class="col-sm-6 col-md-3">
-				<div class="card">
+				<div class="card shadow">
 					<img class="card-img-top" src="resources/t3.jpg">
 					<div class="card-body">
 						<h4 class="card-title">Ezra</h4>
@@ -244,7 +238,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-3">
-				<div class="card">
+				<div class="card shadow">
 					<img class="card-img-top" src="resources/t5.jpg">
 					<div class="card-body">
 						<h4 class="card-title">Umar</h4>
@@ -258,7 +252,7 @@
 			</div>
 
 			<div class="col-sm-6  col-md-3 ">
-				<div class="card ">
+				<div class="card shadow ">
 					<img class="card-img-top" src="resources/t2.jpg">
 					<div class="card-body">
 						<h4 class="card-title">Aetesham</h4>
@@ -278,7 +272,7 @@
 
 	<br />
 	<div class="container-fluid padding">
-		<div class="row welome text-center">
+		<div class="row welome text-center slideanim">
 			<div class="col-12">
 				<h1 class="display-4">It's all bad Decisions.</h1>
 			</div>
@@ -291,26 +285,26 @@
 	</div>
 	<!-- Two column section 2 -->
 	<hr class="my-4">
-	<div class="container-fluid padding">
-		<div class="row padding">
+	<div id="events" class="container-fluid padding">
+		<div class="row padding slideanim ">
 
 			<div class="col-lg-6">
-				<h2>The Trips</h2>
-				<p>Been to Nasa As well</p>
-				<p>didn't get a chance to go to space though.</p>
+				<h2 class="display-1 title">The Trips</h2>
+				<p class="display-4 subtitle-text">Been to Nasa As well</p>
+				<p class="display-4 subtitle-text">Didn't get a chance to go to space though.</p>
 				<br>
-				<a href="#" class="btn btn-primary">Trips Gallery</a>
+				<a href="#" class="btn btn-primary shadow">Trips Gallery</a>
 			</div>
 			<div class="col-lg-6 ">
-				<img src="resources/n1.jpg" class=" bord img-fluid padding">
+				<img src="resources/n1.jpg" class=" shadow bord img-fluid padding">
 			</div>
 
 		</div>
 	</div>
-	<hr class="my-4">
+	<hr class="my-4 shadow">
 	<!-- Socila media -->
 	<div class="container-fluid padding">
-		<div class="row text-center padding">
+		<div class="row text-center padding slideanim">
 			<div class="col-12">
 				<h2>Follow me on </h2>
 
@@ -323,13 +317,13 @@
 				<a href="https://www.quora.com/profile/Chirag-Kaushik-6"><i class="fab fa-quora"></i></a>
 			</div>
 		</div>
-	</div>
+	</div> 
 	<br>
 	<br>
 	<!--footer -->
-	<footer class="footer">
+	<footer id="footer" class="footer shadow">
 		<div class="container-fluid padding">
-			<div class="row text-center">
+			<div class="row text-center slideanim">
 				<div class="col-md-4">
 					<img src="resources/logo4.png">
 					<hr class="light">
